@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Hiragino Maru Gothic Pro', 'Comic Sans MS', cursive;
+  background-color: #fff8dc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.main-visual {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  font-size: 1.5rem;
+  padding: 12px 24px;
+  background-color: #ffcc00;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #ffdd33;
+}
+
+#result {
+  font-size: 1.6rem;
+  margin-top: 20px;
+}
